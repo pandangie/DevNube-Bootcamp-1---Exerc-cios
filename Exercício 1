@@ -4,13 +4,11 @@ Levantar do sofá
 Caminhar até a porta do banheiro
 Se porta do banheiro estiver fechada então
     abrir porta do banheiro
-Senão
-    Se o banheiro estiver escuro então
-        ligar a luz e caminhar até a pia
-    Senão
-        entrar no banheiro e caminhar até a pia
-    Fimse
 Fimse
+Se o banheiro estiver escuro então
+    ligar a luz
+Fimse
+Caminhar até a pia
 Abrir a torneira
 Molhar as mãos
 Fechar a torneira
@@ -21,10 +19,10 @@ Enxaguar as mãos
 Desligar a torneira
 Abrir a porta do armário do banheiro
 Se tem fio dental então
-    pegar e passar fio dental em todos os dentes
-Senão
-    Pegar escova de dente e o creme dental
+    pegar o fio dental
+    passar fio dental em todos os dentes
 Fimse
+Pegar escova de dente e o creme dental
 Fechar a porta do armário do banheiro
 Colocar na escova de dente o creme dental em formato de gota
 Guardar o creme dental no armário do banheiro
@@ -51,8 +49,6 @@ Fimse
 Caminhar até a porta do banheiro
 Se a luz estiver acesa então
     Apagar a luz
-Senão
-    Sair do banheiro
 Fimse
 Caminhar até o sofá
 Sentar no sofá
