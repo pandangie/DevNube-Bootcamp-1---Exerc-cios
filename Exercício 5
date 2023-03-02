@@ -2,20 +2,18 @@ inicio
 
 funcao inteiro fibonacci(inteiro n) 
 
-    se n < 0 entao 
-        Escreva ('Informe somente números positivos.');
-        retorno vazio;
+    se n < 0
+        Escreva ('Informe somente números maiores ou iguais a 0.');
+        retorne nulo;
+    senao se n == 0
+        retorne 0;
+    senao se n == 1
+        retorne 1;
     senao
-        se n == 0 
-            retorne 0;
-        senao 
-            se n == 1 
-                retorne 1;
-            senao 
-                retorne fibonacci = fibonacci(n - 1) + fibonacci(n - 2);
-            fimse
-        fimse
-    fimse
+        retorne fibonacci(n - 1) + fibonacci(n - 2);
+fimse
+
 fimfuncao
 
 fimalgoritmo
+
